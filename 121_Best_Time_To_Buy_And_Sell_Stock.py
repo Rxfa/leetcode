@@ -10,9 +10,6 @@ class Solution:
             if prices[right] <= prices[left]:
                 left = right
                 right += 1
-            elif right == len(prices) - 1:
-                left += 1
-                right = left + 1
             else:
                 right += 1
         return max_profit
