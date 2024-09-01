@@ -1,3 +1,6 @@
+# Time complexity is O(1)
+# Space complexity is O(1)
+
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
         rows = [set() for _ in range(9)]
