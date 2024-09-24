@@ -4,6 +4,6 @@ class Solution:
         left_sum = 0
         for idx, num in enumerate(nums):
             if left_sum == (total_sum - left_sum - num):
-                return idx 
+                return idx
             left_sum += num
         return -1
